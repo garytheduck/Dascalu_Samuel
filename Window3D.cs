@@ -200,11 +200,12 @@ namespace Obiecte3DOpenTK
             GL.Clear(ClearBufferMask.DepthBufferBit);
 
             //RENDER CODE
-            firstTriangle.Draw();
             firstPoint.DrawPoint3D();
             cb.Draw();
             ax.Draw();
             grid.Draw();
+            firstTriangle.Draw();
+
             cbsecondary.FallExample();
                 foreach (Objectoid obj in rainOfObjects)
                 {
